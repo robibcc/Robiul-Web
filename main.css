@@ -79,6 +79,11 @@ h1, h2, h3, h4 {
 #hero {
   margin-top: 150px; /* offset for fixed header */
 }
+#hero h1{
+  color: #ee8206;
+  margin-bottom: 35px;
+  font-size: 35px;
+}
 
 .hero h2 {
   font-size: 40px;
@@ -160,7 +165,7 @@ h1, h2, h3, h4 {
 .progress-bar {
   background-color: var(--color-primary);
   width: 0;
-  transition: width 2.9s ease-in-out;
+  transition: width 1.7s ease-in-out;
 }
 
 .skill-box {
